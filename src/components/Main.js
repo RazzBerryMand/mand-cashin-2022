@@ -35,7 +35,7 @@ export const Main = () => {
       <div className="content-box">
         <h2>Giving Back</h2>
         <p>
-          I am obsessed with diversity and inclusion and in my spare time I
+          I am obsessed with diversity and inclusion. In my spare time I
           volunteer as a mentor at Code Your Future.
         </p>
         <p>

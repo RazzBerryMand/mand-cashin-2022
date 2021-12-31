@@ -22,11 +22,19 @@ export const Main = () => {
         </p>
         <p>
           If you'd like to see examples of my work, you can take a look at my{" "}
-          <a href="url" target="_blank">
+          <a
+            href="https://github.com/RazzBerryMand"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </a>{" "}
           and{" "}
-          <a href="url" target="_blank">
+          <a
+            href="https://codepen.io/razzberrymand"
+            target="_blank"
+            rel="noreferrer"
+          >
             Codepen
           </a>
           .
@@ -41,7 +49,11 @@ export const Main = () => {
         <p>
           If you consider yourself to be of a minority background and are
           thinking about a career in tech, you can message me on{" "}
-          <a href="url" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/mandcashin/"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>{" "}
           and I will offer my advice and point you in the direction of some free
@@ -52,7 +64,11 @@ export const Main = () => {
         <h2>Pokémon GO</h2>
         <p>
           I have a{" "}
-          <a href="url" target="_blank">
+          <a
+            href="https://www.youtube.com/channel/UCn812ePu4R5pIqEVWaNdHNg"
+            target="_blank"
+            rel="noreferrer"
+          >
             YouTube
           </a>{" "}
           where I vlog about my adventures and share trainer tips.

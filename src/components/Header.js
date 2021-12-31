@@ -7,7 +7,11 @@ export const Header = () => {
       <h1>Mand Cashin</h1>
       <p>
         Want to say hi? Reach me on{" "}
-        <a href="url" target="_blank">
+        <a
+          href="https://twitter.com/razzberrymand"
+          target="_blank"
+          rel="noreferrer"
+        >
           Twitter
         </a>
         .

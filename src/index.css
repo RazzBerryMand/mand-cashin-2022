@@ -1,4 +1,39 @@
-body {
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --yellow: #ffde59;
+  --red: #c30100;
+  --grey: #e1e1e1;
+  --font-size-base: 16px;
+  --spacing-base: 8px;
+}
+
+* {
   margin: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+p {
+  margin: var(--spacing-base) 0;
+  line-height: calc(var(--spacing-base) * 4);
+}
+
+a {
+  background: var(--white);
+  color: var(--red);
+  text-decoration: none;
+  border: 1px solid var(--red);
+  padding: calc(var(--spacing-base) * 0.5) var(--spacing-base);
+}
+
+a:hover {
+  background-color: var(--red);
+  color: var(--white);
 }

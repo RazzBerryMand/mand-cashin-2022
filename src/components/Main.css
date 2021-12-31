@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: calc(var(--spacing-base) * 2);
+  align-items: center;
+}
+
+main .content-box {
+  padding: var(--spacing-base);
+  margin-bottom: calc(var(--spacing-base) * 2);
+  border: 1px solid var(--grey);
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  main .content-box {
+    width: 680px;
+  }
+}
+
+main .content-box h2 {
+  margin-bottom: calc(var(--spacing-base) * 2);
+}

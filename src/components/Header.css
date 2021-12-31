@@ -1,0 +1,12 @@
+header {
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  padding: calc(var(--spacing-base) * 2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header h1 {
+  font-size: calc(var(--font-size-base) * 4);
+}

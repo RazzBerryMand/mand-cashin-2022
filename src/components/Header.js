@@ -4,10 +4,14 @@ import "./Header.css";
 export const Header = () => {
   return (
     <header>
-      <div className="header-container">
-        <h1>Mand Cashin</h1>
-        <p>Want to say hi? Tweet me @RazzBerryMand</p>
-      </div>
+      <h1>Mand Cashin</h1>
+      <p>
+        Want to say hi? Reach me on{" "}
+        <a href="url" target="_blank">
+          Twitter
+        </a>
+        .
+      </p>
     </header>
   );
 };

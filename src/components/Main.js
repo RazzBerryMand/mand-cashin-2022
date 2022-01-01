@@ -12,7 +12,7 @@ export const Main = () => {
         <h2>Front End Development</h2>
         <p>
           I have roughly 3 years of commercial HTML, CSS, and JS experience. In
-          2018, I learned to code at Northcoders and have since worked in-house
+          2018, I learnt to code at Northcoders and have since worked in-house
           and for digital agencies.
         </p>
         <p>

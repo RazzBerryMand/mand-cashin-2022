@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import banner from "../assets/banner.jpg";
 
 export const Main = () => {
   return (
@@ -59,6 +60,10 @@ export const Main = () => {
           . I will offer my advice and guide you in the direction of some free
           resources to get you started.
         </p>
+      </div>
+      <div className="content-box">
+        <h2>Special Achievements</h2>
+        <img src={banner} alt="Banner" />
       </div>
       <div className="content-box">
         <h2>Pokémon GO</h2>

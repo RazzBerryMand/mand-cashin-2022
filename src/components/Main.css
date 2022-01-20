@@ -22,3 +22,9 @@ main .content-box {
 main .content-box h2 {
   margin-bottom: calc(var(--spacing-base) * 2);
 }
+
+main .content-box img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}

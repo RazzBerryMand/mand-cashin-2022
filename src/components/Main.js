@@ -8,10 +8,14 @@ export const Main = () => {
       <div className="content-box">
         <h2>About Me</h2>
         <ul className="about-list">
+          <li>
+            I'm a Front End Developer and Mentor. (Probably what's brought you
+            here!)
+          </li>
           <li>True Mancunian. Born, raised and living in Manchester, UK.</li>
           <li>
-            My pronouns are She/Her. (Gender diversity in tech is VERY important
-            to me.)
+            My pronouns are She/Her. Gender diversity in tech is VERY important
+            to me.
           </li>
           <li>
             Fuelled by bubble tea. I know all the best spots for delicious boba!
@@ -19,10 +23,10 @@ export const Main = () => {
         </ul>
       </div>
       <div className="content-box">
-        <h2>Front End Development</h2>
+        <h2>Technical Experience</h2>
         <p>
           Since 2018, I've been creating beautifully performant websites and
-          PWAs. React JS and Tailwind CSS with Storybook is my preferred tech
+          PWAs. React and Tailwind CSS with Storybook is my preferred tech
           stack, however I'm just as comfortable dealing with Vanilla JS or
           jQuery and CSS/Sass.
         </p>
@@ -93,9 +97,9 @@ export const Main = () => {
           channel.
         </p>
         <p>
-          PoGo is my one true passion. I love to vlog about my adventures and
-          share my tips with other trainers. I try to attend all in-person
-          events and have recently started competing in ranked PvP tournaments.
+          PoGo is my one true passion. I vlog about my adventures and share my
+          tips with other trainers. I try to attend all in-person events and
+          have recently started competing in ranked PvP tournaments.
         </p>
         <p>
           Not played before? Download the app today and use my referral code:

@@ -7,7 +7,7 @@ main {
 }
 
 main .content-box {
-  padding: var(--spacing-base);
+  padding: calc(var(--spacing-base) * 2);
   margin-bottom: calc(var(--spacing-base) * 2);
   border: 1px solid var(--grey);
   width: 100%;
@@ -16,33 +16,44 @@ main .content-box {
 @media screen and (min-width: 900px) {
   main .content-box {
     width: 680px;
+    padding: calc(var(--spacing-base) * 4);
   }
 }
 
 main .content-box h2 {
   margin-bottom: calc(var(--spacing-base) * 2);
+  text-transform: uppercase;
+  letter-spacing: calc(var(--font-size-base) * 0.175);
+}
+
+main .content-box p {
+  text-align: justify;
 }
 
 main .content-box .about-list {
-  list-style: none;
+  text-align: justify;
   margin: var(--spacing-base) 0;
   line-height: calc(var(--spacing-base) * 4);
   padding: 0;
+  position: relative;
+  list-style: none;
+  padding-left: calc(var(--spacing-base) * 3);
 }
 
-main .content-box .about-list li::before {
-  padding-right: var(--spacing-base);
+main .content-box .about-list li:before {
+  position: absolute;
+  left: 0;
 }
 
-main .content-box .about-list li:nth-child(n + 1)::before {
+main .content-box .about-list li:nth-child(1):before {
   content: "🏠";
 }
 
-main .content-box .about-list li:nth-child(n + 2)::before {
+main .content-box .about-list li:nth-child(2):before {
   content: "🦸‍♀️";
 }
 
-main .content-box .about-list li:nth-child(n + 3)::before {
+main .content-box .about-list li:nth-child(3):before {
   content: "🧋";
 }
 

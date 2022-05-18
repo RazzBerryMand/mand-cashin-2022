@@ -8,7 +8,7 @@ export const Main = () => {
       <div className="content-box">
         <h2>About Me</h2>
         <ul className="about-list">
-          <li>True Mancunian. Born and raised in Manchester, England.</li>
+          <li>True Mancunian. Born, raised and living in Manchester, UK.</li>
           <li>
             My pronouns are She/Her. (Gender diversity in tech is VERY important
             to me.)
@@ -24,7 +24,7 @@ export const Main = () => {
           Since 2018, I've been creating beautifully performant websites and
           PWAs. React JS and Tailwind CSS with Storybook is my preferred tech
           stack, however I'm just as comfortable dealing with Vanilla JS or
-          JQuery and CSS/Sass.
+          jQuery and CSS/Sass.
         </p>
         <p>
           I've spent the last four years working for some of Manchester's finest

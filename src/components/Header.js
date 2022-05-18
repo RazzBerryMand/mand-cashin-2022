@@ -6,9 +6,12 @@ export const Header = () => {
   return (
     <header>
       <img src={profilePicture} alt="Mand Cashin" />
-      <h1>Mand Cashin</h1>
+      <div className="title-text">
+        <h1>Mand Cashin</h1>
+        <h2>@RazzBerryMand on everything!</h2>
+      </div>
       <p>
-        Want to say hi? Reach me on{" "}
+        Fancy a chat? Find me on{" "}
         <a
           href="https://twitter.com/razzberrymand"
           target="_blank"

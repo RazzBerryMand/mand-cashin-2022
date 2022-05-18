@@ -54,11 +54,14 @@ export const Main = () => {
       <div className="content-box">
         <h2>Giving Back</h2>
         <p>
-          During lockdown, I gave my spare time to Code Your Future, where I
-          taught refugees and people from underprivileged backgrounds how to
-          code. My main goal is to encourage more women, non-binary persons, and
-          trans people to pursue careers in tech. I am now a volunteer
-          instructor at Code First Girls.
+          During lockdown, I gave a lot of my spare time to Code Your Future,
+          where I taught refugees and people from underprivileged backgrounds
+          how to code.
+        </p>
+        <p>
+          I now want to encourage more women and enby/trans individuals to
+          pursue careers in tech. I volunteer as an instructor at Code First
+          Girls and have been featured on panels at Code and Stuff.
         </p>
         <p>
           Contact me via{" "}
@@ -87,9 +90,17 @@ export const Main = () => {
           >
             YouTube
           </a>{" "}
-          channel where I vlog about the game and share trainer tips.
+          channel.
         </p>
-        <p>Not played PoGo before? You can use my referral code: RDYY7CKK9.</p>
+        <p>
+          PoGo is my one true passion. I love to vlog about my adventures and
+          share my tips with other trainers. I try to attend all in-person
+          events and have recently started competing in ranked PvP tournaments.
+        </p>
+        <p>
+          Not played before? Download the app today and use my referral code:
+          RDYY7CKK9.
+        </p>
       </div>
     </main>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import profilePicture from "../assets/IMG_5630.JPG";
+import profilePicture from "../assets/IMG_3010.jpg";
 
 export const Header = () => {
   return (

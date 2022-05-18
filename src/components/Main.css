@@ -23,6 +23,29 @@ main .content-box h2 {
   margin-bottom: calc(var(--spacing-base) * 2);
 }
 
+main .content-box .about-list {
+  list-style: none;
+  margin: var(--spacing-base) 0;
+  line-height: calc(var(--spacing-base) * 4);
+  padding: 0;
+}
+
+main .content-box .about-list li::before {
+  padding-right: var(--spacing-base);
+}
+
+main .content-box .about-list li:nth-child(n + 1)::before {
+  content: "🏠";
+}
+
+main .content-box .about-list li:nth-child(n + 2)::before {
+  content: "🦸‍♀️";
+}
+
+main .content-box .about-list li:nth-child(n + 3)::before {
+  content: "🧋";
+}
+
 main .content-box img {
   width: 100%;
   display: block;

@@ -6,20 +6,30 @@ export const Main = () => {
   return (
     <main>
       <div className="content-box">
-        <h2>About</h2>
-        <p>I live in Manchester, England. My pronouns are She/Her.</p>
+        <h2>About Me</h2>
+        <ul className="about-list">
+          <li>True Mancunian. Born and raised in Manchester, England.</li>
+          <li>
+            My pronouns are She/Her. (Gender diversity in tech is VERY important
+            to me.)
+          </li>
+          <li>
+            Fuelled by bubble tea. I know all the best spots for delicious boba!
+          </li>
+        </ul>
       </div>
       <div className="content-box">
         <h2>Front End Development</h2>
         <p>
-          I have roughly 3 years of commercial HTML, CSS, and JS experience. In
-          2018, I learnt to code at Northcoders and have since worked in-house
-          and for digital agencies.
+          Since 2018, I've been creating beautifully performant websites and
+          PWAs. React JS and Tailwind CSS with Storybook is my preferred tech
+          stack, however I'm just as comfortable dealing with Vanilla JS or
+          JQuery and CSS/Sass.
         </p>
         <p>
-          React is my preferred tech stack, with an emphasis on site performance
-          and a smooth user experience. CRO, accessibility, and agile processes
-          also excite me.
+          I've spent the last four years working for some of Manchester's finest
+          digital agencies, including Code Computerlove, Ampersand, and now
+          DEPT®.
         </p>
         <p>
           Take a peek at my{" "}
@@ -44,21 +54,22 @@ export const Main = () => {
       <div className="content-box">
         <h2>Giving Back</h2>
         <p>
-          I am obsessed with diversity and inclusion. In my spare time I
-          volunteer as a mentor at Code Your Future.
+          During lockdown, I gave my spare time to Code Your Future, where I
+          taught refugees and people from underprivileged backgrounds how to
+          code. My main goal is to encourage more women, non-binary persons, and
+          trans people to pursue careers in technology. I am now a volunteer
+          instructor at Code First Girls.
         </p>
         <p>
-          If you are a member of a minority group and are considering a career
-          in tech, send me a message on{" "}
+          Contact me via{" "}
           <a
             href="https://www.linkedin.com/in/mandcashin/"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
-          </a>
-          . I will offer my advice and guide you in the direction of some free
-          resources to get you started.
+          </a>{" "}
+          if you have an event or meetup that you'd like me to speak at.
         </p>
       </div>
       <div className="content-box">
@@ -68,7 +79,7 @@ export const Main = () => {
       <div className="content-box">
         <h2>Pokémon GO</h2>
         <p>
-          I have a{" "}
+          Please subscribe to my{" "}
           <a
             href="https://www.youtube.com/channel/UCn812ePu4R5pIqEVWaNdHNg"
             target="_blank"
@@ -76,8 +87,9 @@ export const Main = () => {
           >
             YouTube
           </a>{" "}
-          where I vlog about my adventures and share trainer tips.
+          channel where I vlog about my adventures and share trainer tips.
         </p>
+        <p>Not played PoGo before? You can use my referral code: RDYY7CKK9.</p>
       </div>
     </main>
   );

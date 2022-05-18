@@ -48,7 +48,7 @@ export const Main = () => {
           >
             Codepen
           </a>{" "}
-          if you want to see some examples of my work.
+          if you want to see some examples of my code.
         </p>
       </div>
       <div className="content-box">
@@ -57,7 +57,7 @@ export const Main = () => {
           During lockdown, I gave my spare time to Code Your Future, where I
           taught refugees and people from underprivileged backgrounds how to
           code. My main goal is to encourage more women, non-binary persons, and
-          trans people to pursue careers in technology. I am now a volunteer
+          trans people to pursue careers in tech. I am now a volunteer
           instructor at Code First Girls.
         </p>
         <p>
@@ -87,7 +87,7 @@ export const Main = () => {
           >
             YouTube
           </a>{" "}
-          channel where I vlog about my adventures and share trainer tips.
+          channel where I vlog about the game and share trainer tips.
         </p>
         <p>Not played PoGo before? You can use my referral code: RDYY7CKK9.</p>
       </div>

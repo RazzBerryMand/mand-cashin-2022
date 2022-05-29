@@ -5,25 +5,22 @@ export const Main = () => {
   return (
     <main>
       <div className="content-box">
-        <h2>About Me</h2>
+        <h2>About</h2>
         <ul className="about-list">
           <li>
             I'm a Front End Developer. (Probably what's brought you here!)
           </li>
           <li>The rest of my time is spent playing Pokémon GO.</li>
           <li>True Mancunian. Born, raised and living in Manchester, UK.</li>
-          <li>
-            My pronouns are She/Her. Gender diversity in tech is VERY important
-            to me.
-          </li>
+          <li>My pronouns are She/Her. Always be inclusive and respectful.</li>
         </ul>
       </div>
       <div className="content-box">
-        <h2>Technical Experience</h2>
+        <h2>Skills</h2>
         <p>
-          Since 2018, I've been creating beautifully performant websites and
-          PWAs. React JS/TS and Tailwind CSS with Storybook is my preferred tech
-          stack, however I'm just as comfortable dealing with Vanilla JS or
+          Since 2018, I've been building beautifully performant websites and
+          PWAs. My preferred tech stack is React JS/TS with Tailwind CSS and
+          Storybook, however I'm just as comfortable dealing with Vanilla JS or
           jQuery and CSS/Sass.
         </p>
         <p>
@@ -52,16 +49,16 @@ export const Main = () => {
         </p>
       </div>
       <div className="content-box">
-        <h2>Knowledge Sharing</h2>
+        <h2>Outreach</h2>
         <p>
           During lockdown, I gave a lot of my spare time to Code Your Future,
           where I taught refugees and people from underprivileged backgrounds
-          how to code.
+          how to code. I have also volunteered as an instructor at Code First
+          Girls and delivered talks at Code and Stuff.
         </p>
         <p>
           Collectively, we need encourage more women and enby/trans individuals
-          to pursue careers in tech. I have also volunteered as an instructor at
-          Code First Girls and delivered talks at Code and Stuff.
+          to pursue careers in tech.
         </p>
         <p>
           Contact me via{" "}
@@ -72,11 +69,11 @@ export const Main = () => {
           >
             LinkedIn
           </a>{" "}
-          if you have an event or meetup that you'd like me to speak at.
+          if there's a conference or meetup that you'd like me to speak at.
         </p>
       </div>
       <div className="content-box">
-        <h2>Content Creation</h2>
+        <h2>Content</h2>
         <p>
           Please subscribe to my{" "}
           <a
@@ -89,7 +86,7 @@ export const Main = () => {
           channel.
         </p>
         <p>
-          I love making videos to share with other trainers and try to attend
+          I create videos to share my tips with other trainers. I try to attend
           all in-person events and ranked PvP tournaments.
         </p>
         <p>

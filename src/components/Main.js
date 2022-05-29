@@ -8,9 +8,9 @@ export const Main = () => {
         <h2>About Me</h2>
         <ul className="about-list">
           <li>
-            I'm a Front End Developer and Mentor. (Probably what's brought you
-            here!)
+            I'm a Front End Developer. (Probably what's brought you here!)
           </li>
+          <li>The rest of my time is spent playing Pokémon GO.</li>
           <li>True Mancunian. Born, raised and living in Manchester, UK.</li>
           <li>
             My pronouns are She/Her. Gender diversity in tech is VERY important
@@ -92,9 +92,8 @@ export const Main = () => {
           channel.
         </p>
         <p>
-          PoGo is my one true passion. I create video content to share with
-          other trainers and try to attend all in-person events and ranked PvP
-          tournaments.
+          I create video content to share with other trainers and try to attend
+          all in-person events and ranked PvP tournaments.
         </p>
         <p>
           Not played before? Download the app today and use my referral code:

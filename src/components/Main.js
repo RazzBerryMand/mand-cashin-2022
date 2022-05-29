@@ -76,7 +76,7 @@ export const Main = () => {
         </p>
       </div>
       <div className="content-box">
-        <h2>Pokémon GO</h2>
+        <h2>Content Creation</h2>
         <p>
           Please subscribe to my{" "}
           <a
@@ -89,7 +89,7 @@ export const Main = () => {
           channel.
         </p>
         <p>
-          I create video content to share with other trainers and try to attend
+          I love making videos to share with other trainers and try to attend
           all in-person events and ranked PvP tournaments.
         </p>
         <p>

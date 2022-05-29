@@ -60,9 +60,3 @@ main .content-box .about-list li:nth-child(3):before {
 main .content-box .about-list li:nth-child(4):before {
   content: "🧋";
 }
-
-main .content-box img {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}

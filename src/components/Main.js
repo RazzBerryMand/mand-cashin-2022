@@ -1,6 +1,5 @@
 import React from "react";
 import "./Main.css";
-import banner from "../assets/banner.jpg";
 
 export const Main = () => {
   return (
@@ -26,7 +25,7 @@ export const Main = () => {
         <h2>Technical Experience</h2>
         <p>
           Since 2018, I've been creating beautifully performant websites and
-          PWAs. React and Tailwind CSS with Storybook is my preferred tech
+          PWAs. React JS/TS and Tailwind CSS with Storybook is my preferred tech
           stack, however I'm just as comfortable dealing with Vanilla JS or
           jQuery and CSS/Sass.
         </p>
@@ -56,16 +55,16 @@ export const Main = () => {
         </p>
       </div>
       <div className="content-box">
-        <h2>Giving Back</h2>
+        <h2>Knowledge Sharing</h2>
         <p>
           During lockdown, I gave a lot of my spare time to Code Your Future,
           where I taught refugees and people from underprivileged backgrounds
           how to code.
         </p>
         <p>
-          I now want to encourage more women and enby/trans individuals to
-          pursue careers in tech. I volunteer as an instructor at Code First
-          Girls and have been featured on panels at Code and Stuff.
+          It is important to encourage more women and enby/trans individuals to
+          pursue careers in tech. I have also volunteered as an instructor at
+          Code First Girls and have been featured on panels at Code and Stuff.
         </p>
         <p>
           Contact me via{" "}
@@ -78,10 +77,6 @@ export const Main = () => {
           </a>{" "}
           if you have an event or meetup that you'd like me to speak at.
         </p>
-      </div>
-      <div className="content-box">
-        <h2>Special Achievements</h2>
-        <img src={banner} alt="Banner" />
       </div>
       <div className="content-box">
         <h2>Pokémon GO</h2>
@@ -97,9 +92,9 @@ export const Main = () => {
           channel.
         </p>
         <p>
-          PoGo is my one true passion. I vlog about my adventures and share my
-          tips with other trainers. I try to attend all in-person events and
-          have recently started competing in ranked PvP tournaments.
+          PoGo is my one true passion. I create video content to share with
+          other trainers and try to attend all in-person events and ranked PvP
+          tournaments.
         </p>
         <p>
           Not played before? Download the app today and use my referral code:

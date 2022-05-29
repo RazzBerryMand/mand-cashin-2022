@@ -60,7 +60,3 @@ main .content-box .about-list li:nth-child(3):before {
 main .content-box .about-list li:nth-child(4):before {
   content: "🦸‍♀️";
 }
-
-main .content-box .about-list li:nth-child(5):before {
-  content: "🧋";
-}

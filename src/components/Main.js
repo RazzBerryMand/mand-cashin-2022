@@ -16,9 +16,6 @@ export const Main = () => {
             My pronouns are She/Her. Gender diversity in tech is VERY important
             to me.
           </li>
-          <li>
-            Fuelled by bubble tea. I know all the best spots for delicious boba!
-          </li>
         </ul>
       </div>
       <div className="content-box">
@@ -62,9 +59,9 @@ export const Main = () => {
           how to code.
         </p>
         <p>
-          It is important to encourage more women and enby/trans individuals to
-          pursue careers in tech. I have also volunteered as an instructor at
-          Code First Girls and have been featured on panels at Code and Stuff.
+          Collectively, we need encourage more women and enby/trans individuals
+          to pursue careers in tech. I have also volunteered as an instructor at
+          Code First Girls and delivered talks at Code and Stuff.
         </p>
         <p>
           Contact me via{" "}

@@ -73,7 +73,7 @@ export const Main = () => {
         </p>
       </div>
       <div className="content-box">
-        <h2>Content</h2>
+        <h2>Vlog</h2>
         <p>
           Please subscribe to my{" "}
           <a

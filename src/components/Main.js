@@ -57,7 +57,7 @@ export const Main = () => {
           Girls and delivered talks at Code and Stuff.
         </p>
         <p>
-          Collectively, we need encourage more women and enby/trans individuals
+          Collectively, we need to encourage more women and enby/trans individuals
           to pursue careers in tech.
         </p>
         <p>

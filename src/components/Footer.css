@@ -7,3 +7,10 @@ footer {
 footer p {
   font-size: calc(var(--font-size-base) * 0.75);
 }
+
+@media screen and (min-width: 900px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

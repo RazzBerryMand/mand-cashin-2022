@@ -22,7 +22,6 @@ header .title-text {
 
 header .title-text h1 {
   font-size: calc(var(--font-size-base) * 2);
-  /* letter-spacing: calc(var(--font-size-base) * 0.175); */
   text-transform: uppercase;
 }
 
@@ -30,10 +29,6 @@ header .title-text h2 {
   font-size: calc(var(--font-size-base) * 1.25);
   font-weight: normal;
   font-style: italic;
-}
-
-header p {
-  font-size: calc(var(--font-size-base) * 0.75);
 }
 
 @media screen and (min-width: 900px) {

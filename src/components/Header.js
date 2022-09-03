@@ -10,17 +10,6 @@ export const Header = () => {
         <h1>RAZZBERRYMAND</h1>
         <h2>Mand Cashin (She/Her)</h2>
       </div>
-      <p>
-        Fancy a chat? Find me on{" "}
-        <a
-          href="https://twitter.com/razzberrymand"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Twitter
-        </a>
-        .
-      </p>
     </header>
   );
 };

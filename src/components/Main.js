@@ -5,28 +5,20 @@ export const Main = () => {
   return (
     <main>
       <div className="content-box">
-        <h2>About</h2>
+        <h2>About Me</h2>
         <ul className="about-list">
-          <li>
-            I'm a Front End Developer. (Probably what's brought you here!)
-          </li>
-          <li>The rest of my time is spent playing Pokémon GO.</li>
-          <li>True Mancunian. Born, raised and living in Manchester, UK.</li>
-          <li>My pronouns are She/Her. Always be inclusive and respectful.</li>
+          <li>Front End Developer with four years' experience.</li>
+          <li>True Mancunian, born, raised and residing in Manchester, UK.</li>
+          <li>Proud to be inclusive and respectful of others.</li>
+          <li>Level 50 Pokémon GO player and PVP enthusiast.</li>
         </ul>
       </div>
       <div className="content-box">
-        <h2>Skills</h2>
+        <h2>Front End Development</h2>
         <p>
-          Since 2018, I've been building beautifully performant websites and
-          PWAs. My preferred tech stack is React JS/TS with Tailwind CSS and
-          Storybook, however I'm just as comfortable dealing with Vanilla JS or
-          jQuery and CSS/Sass.
-        </p>
-        <p>
-          I've spent the last four years working for some of Manchester's finest
-          digital agencies, including Code Computerlove, Ampersand, and now
-          DEPT®.
+          I love building beautifully performant websites and PWAs. Although
+          React JS/TS with Tailwind CSS and Storybook is my preferred tech
+          stack, I'm equally at ease using Vanilla JS or jQuery and CSS/Sass.
         </p>
         <p>
           Take a peek at my{" "}
@@ -49,19 +41,16 @@ export const Main = () => {
         </p>
       </div>
       <div className="content-box">
-        <h2>Outreach</h2>
+        <h2>Tech Community Presence</h2>
         <p>
-          During lockdown, I gave a lot of my spare time to Code Your Future,
-          where I taught refugees and people from underprivileged backgrounds
-          how to code. I have also volunteered as an instructor at Code First
-          Girls and delivered talks at Code and Stuff.
+          Teaching people from underprivileged and minority backgrounds how to
+          code has been a rewarding volunteer experience for me. Collectively,
+          we need to encourage more women and enby/trans individuals to pursue
+          careers in tech.
         </p>
         <p>
-          Collectively, we need to encourage more women and enby/trans individuals
-          to pursue careers in tech.
-        </p>
-        <p>
-          Contact me via{" "}
+          To share my knowledge with others, I enjoy delivering talks. Contact
+          me via{" "}
           <a
             href="https://www.linkedin.com/in/mandcashin/"
             target="_blank"
@@ -69,11 +58,11 @@ export const Main = () => {
           >
             LinkedIn
           </a>{" "}
-          if there's a conference or meetup that you'd like me to speak at.
+          if you'd like me to attend at your meet-up.
         </p>
       </div>
       <div className="content-box">
-        <h2>Vlog</h2>
+        <h2>Pokémon GO</h2>
         <p>
           Please subscribe to my{" "}
           <a
@@ -83,16 +72,11 @@ export const Main = () => {
           >
             YouTube
           </a>{" "}
-          channel.
+          channel where I post videos with advice for fellow trainers. I attend
+          in-game events all throughout Europe and compete in ranked in-person
+          PVP tournaments in Manchester.
         </p>
-        <p>
-          I create videos to share my tips with other trainers. I try to attend
-          all in-person events and ranked PvP tournaments.
-        </p>
-        <p>
-          Not played before? Download the app today and use my referral code:
-          RDYY7CKK9.
-        </p>
+        <p>Download the app today and use my referral code: RDYY7CKK9.</p>
       </div>
     </main>
   );

@@ -7,8 +7,8 @@ export const Header = () => {
     <header>
       <img src={profilePicture} alt="Mand Cashin" />
       <div className="title-text">
-        <h1>Mand Cashin</h1>
-        <h2>@RazzBerryMand on everything!</h2>
+        <h1>RAZZBERRYMAND</h1>
+        <h2>Mand Cashin (She/Her)</h2>
       </div>
       <p>
         Fancy a chat? Find me on{" "}

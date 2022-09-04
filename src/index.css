@@ -26,14 +26,18 @@ p {
 }
 
 a {
-  background: var(--white);
-  color: var(--red);
-  text-decoration: none;
+  background-color: var(--red);
   border: 1px solid var(--red);
-  padding: calc(var(--spacing-base) * 0.5) var(--spacing-base);
+  border-radius: calc(var(--spacing-base) * 0.5);
+  color: var(--white);
+  padding: calc(var(--spacing-base) * 0.75);
+  text-decoration: none;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, var(--red) 50%, var(--white) 50%);
+  transition: background-position 0.4s;
 }
 
 a:hover {
-  background-color: var(--red);
-  color: var(--white);
+  color: var(--red);
+  background-position: -100% 0;
 }

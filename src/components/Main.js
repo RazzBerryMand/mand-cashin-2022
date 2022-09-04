@@ -41,7 +41,7 @@ export const Main = () => {
         </p>
       </div>
       <div className="content-box">
-        <h2>Tech Community Presence</h2>
+        <h2>Tech Mentoring</h2>
         <p>
           Teaching people from underprivileged and minority backgrounds how to
           code has been a rewarding volunteer experience for me. Collectively,

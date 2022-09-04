@@ -4,9 +4,9 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <p>Copyright © 2022 Mand Cashin.</p>
+      <p>Copyright © 2022 Mand Cashin</p>
       <p>
-        Fancy a chat? Find me on{" "}
+        Follow me on{" "}
         <a
           href="https://twitter.com/razzberrymand"
           target="_blank"
@@ -14,7 +14,6 @@ export const Footer = () => {
         >
           Twitter
         </a>
-        .
       </p>
     </footer>
   );

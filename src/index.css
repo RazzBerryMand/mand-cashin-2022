@@ -1,10 +1,11 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --yellow: #ffde59;
-  --red: #c30100;
-  --grey: #e1e1e1;
+  --grey: #4d4d4d;
+  --primary: #fe072e;
+  --secondary: #f94f54;
   --font-size-base: 16px;
+  --font-weight-bold: 700;
   --spacing-base: 8px;
 }
 
@@ -26,18 +27,24 @@ p {
 }
 
 a {
-  background-color: var(--red);
-  border: 1px solid var(--red);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
   border-radius: calc(var(--spacing-base) * 0.5);
   color: var(--white);
   padding: calc(var(--spacing-base) * 0.75);
   text-decoration: none;
   background-size: 200% 100%;
-  background-image: linear-gradient(to right, var(--red) 50%, var(--white) 50%);
+  background-image: linear-gradient(
+    to right,
+    var(--secondary) 50%,
+    var(--white) 50%
+  );
   transition: background-position 0.4s;
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--secondary);
   background-position: -100% 0;
 }

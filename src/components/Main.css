@@ -34,6 +34,9 @@ main .content-box {
 main .content-box h2 {
   margin-bottom: calc(var(--spacing-base) * 2);
   text-transform: uppercase;
+  color: var(--primary);
+  /* text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black),
+    -1px 1px 0 var(--black), 1px 1px 0 var(--black); */
 }
 
 main .content-box p {

@@ -11,7 +11,6 @@ header {
 
 header img {
   width: 120px;
-  height: 120px;
   border-radius: 100%;
   margin: var(--spacing-base);
   object-fit: cover;
@@ -35,7 +34,6 @@ header .title-text h2 {
 @media screen and (min-width: 900px) {
   header img {
     width: 200px;
-    height: 200px;
   }
 
   header .title-text h1 {

@@ -8,68 +8,17 @@ main {
 }
 
 main .content-box {
-  box-shadow: 0px 3px 15px var(--grey);
-  padding: calc(var(--spacing-base) * 2);
-  margin-bottom: calc(var(--spacing-base) * 2);
   width: 100%;
   border-radius: calc(var(--spacing-base) * 0.5);
+  margin-bottom: calc(var(--spacing-base) * 4);
+  border: 1px solid var(--primary);
+  padding: calc(var(--spacing-base) * 2);
 }
 
-@media screen and (min-width: 900px) {
-  main {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    gap: calc(var(--spacing-base) * 4);
-  }
-
-  main .content-box {
-    width: 35%;
-    padding: calc(var(--spacing-base) * 4);
-    margin-bottom: 0;
-  }
+main .content-box:last-of-type {
+  margin-bottom: 0;
 }
 
 main .content-box h2 {
-  margin-bottom: calc(var(--spacing-base) * 2);
-  text-transform: uppercase;
   color: var(--primary);
-  /* text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black),
-    -1px 1px 0 var(--black), 1px 1px 0 var(--black); */
-}
-
-main .content-box p {
-  text-align: justify;
-}
-
-main .content-box .about-list {
-  text-align: justify;
-  margin: var(--spacing-base) 0;
-  line-height: calc(var(--spacing-base) * 4);
-  padding: 0;
-  position: relative;
-  list-style: none;
-  padding-left: calc(var(--spacing-base) * 3);
-}
-
-main .content-box .about-list li:before {
-  position: absolute;
-  left: 0;
-}
-
-main .content-box .about-list li:nth-child(1):before {
-  content: "💻";
-}
-
-main .content-box .about-list li:nth-child(2):before {
-  content: "🏠";
-}
-
-main .content-box .about-list li:nth-child(3):before {
-  content: "🌈";
-}
-
-main .content-box .about-list li:nth-child(4):before {
-  content: "✨";
 }

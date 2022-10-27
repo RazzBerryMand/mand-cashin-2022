@@ -1,0 +1,13 @@
+.pokemon {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: calc(var(--spacing-base) * 4) calc(var(--spacing-base) * 2);
+  align-items: center;
+  background-color: var(--primary);
+}
+
+.pokemon h2,
+.pokemon p {
+  color: var(--white);
+}

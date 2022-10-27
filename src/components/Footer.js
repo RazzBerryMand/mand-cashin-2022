@@ -4,17 +4,18 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <p>Copyright © 2022 Mand Cashin</p>
-      <p>
-        Follow me on{" "}
-        <a
-          href="https://twitter.com/razzberrymand"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Twitter
-        </a>
-      </p>
+      <div className="layout-container">
+        <div className="footer-content">
+          <p>Copyright © 2022 Mand Cashin</p>
+          <a
+            href="https://github.com/RazzBerryMand/mand-cashin-2022"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View website source code
+          </a>
+        </div>
+      </div>
     </footer>
   );
 };

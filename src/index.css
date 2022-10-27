@@ -1,7 +1,7 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --grey: #4d4d4d;
+  --grey: #e1e1e1;
   --primary: #fe072e;
   --secondary: #f94f54;
   --font-size-base: 16px;
@@ -21,9 +21,23 @@
   min-height: 100vh;
 }
 
+.layout-container {
+  width: 100%;
+}
+
 p {
-  margin: var(--spacing-base) 0;
-  line-height: calc(var(--spacing-base) * 4);
+  font-size: var(--font-size-base);
+}
+
+h1 {
+  font-size: calc(var(--font-size-base) * 2);
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+h2 {
+  font-size: calc(var(--font-size-base) * 1.25);
+  color: var(--primary);
 }
 
 a {
@@ -47,4 +61,22 @@ a {
 a:hover {
   color: var(--secondary);
   background-position: -100% 0;
+}
+
+@media screen and (min-width: 900px) {
+  .layout-container {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: calc(var(--font-size-base) * 4);
+  }
+
+  h2 {
+    font-size: calc(var(--font-size-base) * 2);
+  }
+
+  p {
+    font-size: calc(var(--font-size-base) * 1.5);
+  }
 }

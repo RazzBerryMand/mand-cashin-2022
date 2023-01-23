@@ -1,5 +1,4 @@
 footer {
-  background-color: var(--grey);
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -8,7 +7,14 @@ footer {
   padding: calc(var(--spacing-base) * 2);
 }
 
-footer p {
+footer .footer-content {
+  background-color: var(--grey);
+  border-radius: calc(var(--spacing-base) * 0.5);
+  padding: calc(var(--spacing-base) * 2);
+  padding-bottom: calc(var(--spacing-base) * 4);
+}
+
+footer .footer-content p {
   font-size: calc(var(--font-size-base) * 0.75);
   margin-bottom: calc(var(--spacing-base) * 2);
 }

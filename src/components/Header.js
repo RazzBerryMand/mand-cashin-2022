@@ -13,7 +13,7 @@ export const Header = () => {
         <div className="profile-box">
           <img src={profilePicture} alt="Mand Cashin" />
           <p>
-            Front End JavaScript Developer since 2018 | Pokémon GO player since
+            Front End JavaScript Developer since 2018 | Pokémon GO trainer since
             2016 | Manchester, UK
           </p>
         </div>

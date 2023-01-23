@@ -6,7 +6,7 @@ export const Main = () => {
     <main>
       <div className="layout-container">
         <div className="main-subsection">
-          <h2>Professional Info</h2>
+          <h2>Developer Info</h2>
           <div className="content-box">
             <h3>Skills</h3>
             <ul>

@@ -46,7 +46,7 @@ export const Main = () => {
           <div className="content-box">
             <h3>Mentoring</h3>
             <ul>
-              <li>Currently mentoring at CodeandStuff Manchester</li>
+              <li>Currently mentoring at CodeandStuff</li>
               <li>
                 Previous volunteer roles include: CodeYourFuture and Code First
                 Girls

@@ -1,6 +1,5 @@
 import { Header } from "./components/Header.js";
 import { Main } from "./components/Main.js";
-import { Pokemon } from "./components/Pokemon.js";
 import { Footer } from "./components/Footer.js";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <div className="App">
       <Header />
       <Main />
-      <Pokemon />
       <Footer />
     </div>
   );

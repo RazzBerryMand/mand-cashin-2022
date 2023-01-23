@@ -7,21 +7,20 @@ export const Header = () => {
     <header>
       <div className="layout-container">
         <div className="heading">
-          <h1>RAZZBERRYMAND</h1>
+          <h1>RazzBerryMand</h1>
           <h2>Mand Cashin (She/Her)</h2>
         </div>
         <div className="profile-box">
           <img src={profilePicture} alt="Mand Cashin" />
           <p>
-            Specialist Front End Developer with over four years' experience.
-            True Mancunian, born, raised and residing in Manchester, UK. Proud
-            to be inclusive and respectful of others.
+            Front End JavaScript Developer since 2018 | Pokémon GO player since
+            2016 | Manchester, UK
           </p>
         </div>
         <div className="links">
           <ul>
             <li>
-              <p>Find me on:</p>
+              <p>See More:</p>
             </li>
             <li>
               <a

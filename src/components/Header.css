@@ -1,5 +1,5 @@
 header {
-  background-color: var(--grey);
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -37,12 +37,12 @@ header .links ul {
 }
 
 header .links ul li {
-  margin-bottom: var(--spacing-base);
+  margin-bottom: calc(var(--spacing-base) * 1.5);
 }
 
 @media screen and (min-width: 900px) {
   header .profile-box img {
-    width: 200px;
+    width: 150px;
     margin-right: calc(var(--spacing-base) * 4);
   }
 }

@@ -6,7 +6,7 @@ export const Footer = () => {
     <footer>
       <div className="layout-container">
         <div className="footer-content">
-          <p>Copyright © 2022 Mand Cashin</p>
+          <p>Copyright © 2023 Mand Cashin</p>
           <a
             href="https://github.com/RazzBerryMand/mand-cashin-2022"
             target="_blank"

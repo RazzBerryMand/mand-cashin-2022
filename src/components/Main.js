@@ -20,7 +20,7 @@ export const Main = () => {
             </ul>
           </div>
           <div className="content-box">
-            <h3>Skills</h3>
+            <h3>Dev Skills</h3>
             <ul>
               <li>
                 Tech: React, Next.js, Storybook, Tailwind, Styled Components,
@@ -34,7 +34,7 @@ export const Main = () => {
             </ul>
           </div>
           <div className="content-box">
-            <h3>Jobs</h3>
+            <h3>Dev Jobs</h3>
             <ul>
               <li>Currently working at Auto Trader UK</li>
               <li>

@@ -6,7 +6,19 @@ export const Main = () => {
     <main>
       <div className="layout-container">
         <div className="main-subsection">
-          <h2>Developer Info</h2>
+          <h2>About Me:</h2>
+          <div className="content-box">
+            <h3>Achievements</h3>
+            <ul>
+              <li>
+                2022 TalkTalk North West Women in Tech Awards - Mentor of the
+                Year Nominee
+              </li>
+              <li>
+                2022 Northern Power Women Awards - Mentor of the Year Shortlist
+              </li>
+            </ul>
+          </div>
           <div className="content-box">
             <h3>Skills</h3>
             <ul>
@@ -22,24 +34,12 @@ export const Main = () => {
             </ul>
           </div>
           <div className="content-box">
-            <h3>Achievements</h3>
-            <ul>
-              <li>
-                2022 TalkTalk North West Women in Tech Awards - Mentor of the
-                Year Nominee
-              </li>
-              <li>
-                2022 Northen Power Women Awards - Mentor of the Year Shortlist
-              </li>
-            </ul>
-          </div>
-          <div className="content-box">
-            <h3>Experience</h3>
+            <h3>Jobs</h3>
             <ul>
               <li>Currently working at Auto Trader UK</li>
               <li>
                 Previous employers include: DEPT®, MAG (Airports Group),
-                Ampersand, JD Sports Fashion plc and Code Computerlove
+                Ampersand, JD Sports Fashion plc, and Code Computerlove
               </li>
             </ul>
           </div>
@@ -51,26 +51,6 @@ export const Main = () => {
                 Previous volunteer roles include: CodeYourFuture and Code First
                 Girls
               </li>
-            </ul>
-          </div>
-        </div>
-        <div className="main-subsection">
-          <h2>Trainer Info</h2>
-          <div className="content-box">
-            <h3>About</h3>
-            <ul>
-              <li>Level: 50</li>
-              <li>Team: Valor</li>
-              <li>Region: Garden</li>
-            </ul>
-          </div>
-          <div className="content-box">
-            <h3>Attended</h3>
-            <ul>
-              <li>2023 Pokémon GO Regional Championships - Liverpool</li>
-              <li>2022 Pokémon GO Fest - Berlin</li>
-              <li>2022 Pokémon GO Safari Zone - Seville</li>
-              <li>2021 Pokémon GO Safari Zone - Liverpool</li>
             </ul>
           </div>
         </div>

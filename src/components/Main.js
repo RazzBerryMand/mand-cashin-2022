@@ -38,15 +38,15 @@ export const Main = () => {
             <ul>
               <li>Currently working at On the Beach</li>
               <li>
-                Previously worked at Auto Trader UK, DEPT®, MAG (Airports Group),
-                Ampersand, JD Sports Fashion plc, and Code Computerlove
+                (Previously Auto Trader, DEPT®, MAG,
+                Ampersand, JD Sports and Code Computerlove)
               </li>
             </ul>
           </div>
           <div className="content-box">
             <h3>Community 🌱</h3>
             <ul>
-              <li>Previously mentored at CodeandStuff, CodeYourFuture and Code First Girls</li>
+              <li>Volunteered as a mentor at CodeandStuff, CodeYourFuture and Code First Girls</li>
               <li>D&I is important to me and I strive to deliver talks to raise awareness whenever possible</li>
             </ul>
           </div>

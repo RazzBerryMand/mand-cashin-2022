@@ -8,7 +8,7 @@ export const Main = () => {
         <div className="main-subsection">
           <h2>About Me:</h2>
           <div className="content-box">
-            <h3>Achievements</h3>
+            <h3>Achievements 🏆</h3>
             <ul>
               <li>
                 2022 TalkTalk North West Women in Tech Awards - Mentor of the
@@ -20,10 +20,10 @@ export const Main = () => {
             </ul>
           </div>
           <div className="content-box">
-            <h3>Dev Skills</h3>
+            <h3>Technical Knowledge 🧰</h3>
             <ul>
               <li>
-                Tech: React, Next.js, Storybook, Tailwind, Styled Components,
+                Skills: React, Next.js, Storybook, Tailwind, Styled Components,
                 Netlify, Magento2, Shopify, Contentful, Strapi, Optimizely,
                 GraphQL, Jest, Testing Library
               </li>
@@ -34,23 +34,20 @@ export const Main = () => {
             </ul>
           </div>
           <div className="content-box">
-            <h3>Dev Jobs</h3>
+            <h3>Professional Experience 💼</h3>
             <ul>
-              <li>Currently working at Auto Trader UK</li>
+              <li>Currently working at On the Beach</li>
               <li>
-                Previous employers include: DEPT®, MAG (Airports Group),
+                Previously worked at Auto Trader UK, DEPT®, MAG (Airports Group),
                 Ampersand, JD Sports Fashion plc, and Code Computerlove
               </li>
             </ul>
           </div>
           <div className="content-box">
-            <h3>Mentoring</h3>
+            <h3>Community 🌱</h3>
             <ul>
-              <li>Currently mentoring at CodeandStuff</li>
-              <li>
-                Previous volunteer roles include: CodeYourFuture and Code First
-                Girls
-              </li>
+              <li>Previously mentored at CodeandStuff, CodeYourFuture and Code First Girls</li>
+              <li>D&I is important to me and I strive to deliver talks to raise awareness whenever possible</li>
             </ul>
           </div>
         </div>
